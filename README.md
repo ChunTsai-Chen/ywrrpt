@@ -1,6 +1,7 @@
 # ywrrpt
 YashanDB AWR Report Generator
 # ywrrpt使用示例
+```shell
 [yashan@yashandb1 awr]$ ./ywrrpt 
 =============================================================================
                       YashanDB AWR Report Generator                          
@@ -35,3 +36,4 @@ Enter END   Snapshot ID: 14
 [3/3] Success! Report created: awr_1495968044_1_13_14.html
 [yashan@yashandb1 awr]$ ll awr_1495968044_1_13_14.html 
 -rw-r--r-- 1 yashan YASDBA 77451 Mar 23 23:58 awr_1495968044_1_13_14.html
+```
