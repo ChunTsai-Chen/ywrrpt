@@ -1,7 +1,15 @@
-# ywrrpt
+### ywrrpt工具说明
 YashanDB AWR Report Generator
-# ywrrpt使用示例
+### 使用方法
+下载并上传ywrrpt文件，授予可执行权限，修改ywrrpt为YashanDB用户属组，使用YashanDB用户执行。示例：
 ```shell
+[root@yashandb1 ~]# chmod +x ywrrpt
+[root@yashandb1 ~]# chown yashan:yashan ywrrpt
+[root@yashandb1 ~]# mv ywrrpt /home/yashan/scripts/awr
+```
+### ywrrpt使用示例
+```shell
+[root@yashandb1 ~]# su - yashan
 [yashan@yashandb1 awr]$ ./ywrrpt 
 =============================================================================
                       YashanDB AWR Report Generator                          
